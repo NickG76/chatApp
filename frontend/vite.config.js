@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     open: "./login",
-    //host: "192.168.1.153",
-    allowedHosts: ["194.163.229.212", "192.168.1.153"]
+    allowedHosts: ["api.girlingdesign.co.uk"], 
   }
 })
